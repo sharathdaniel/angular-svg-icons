@@ -7,7 +7,7 @@ import { Component, Input } from '@angular/core';
     <svg
       class="svg-icon"
       focusable="false"
-      [attr.role]="'img'"
+      [attr.role]="ariaLabel ? 'img' : null"
       [attr.aria-hidden]="ariaLabel ? null : 'true'"
       [attr.aria-label]="ariaLabel"
       xmlns="http://www.w3.org/2000/svg"
