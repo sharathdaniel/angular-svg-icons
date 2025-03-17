@@ -6,6 +6,7 @@ import { Component, Input } from '@angular/core';
   template: `
     <svg
       class="icon"
+      focusable="false"
       [attr.role]="'img'"
       [attr.aria-hidden]="ariaLabel ? null : 'true'"
       [attr.aria-label]="ariaLabel"
