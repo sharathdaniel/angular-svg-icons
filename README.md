@@ -1,6 +1,6 @@
 # Usage
 
-`<app-icon class="app-c-icon icon-size-sm" name="icon-user-sm" ariaLabel="User"></app-icon>`
+`<app-icon class="app-c-icon icon-size-sm text-red" name="icon-user-sm" ariaLabel="User"></app-icon>`
 
 ## Notes:
 
