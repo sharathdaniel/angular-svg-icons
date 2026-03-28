@@ -17,7 +17,7 @@ import { Component, Input } from '@angular/core';
   `,
 })
 export class IconComponent {
-  @Input() name!: string;
+  @Input({ required: true }) name!: string;
   /**
    * Accessibility:
    * - Use `ariaLabel` ONLY for standalone / status icons
